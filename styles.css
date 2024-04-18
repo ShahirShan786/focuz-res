@@ -1,0 +1,42 @@
+.black{
+    background-color: black;
+}
+
+
+body{
+    font-family:  "Fira Sans", sans-serif;
+}
+.header-section .navbar-nav a{
+    color: white;
+}
+
+.hero-about p{
+    font-weight: 16px;
+    line-height: 28px;
+}
+
+.hero-contact{
+    background-image: url("images/footer-bk.jpg") ; background-size: 100%; background-repeat: no-repeat;
+}
+
+.hero-contact .address-box span{
+    font-weight: 700;
+    font-size: 22px
+}
+
+.hero-contact .address-box p{
+    font-size: larger;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+@media(max-width:767px){
+    .header-section .navbar img {
+        width: 120px;
+    }
+
+    .hero-contact .address-box p{
+        text-align: center;
+        font-size: 16px;
+    }
+}
