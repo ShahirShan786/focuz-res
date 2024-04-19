@@ -1,3 +1,11 @@
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
 .black{
     background-color: black;
 }
@@ -30,6 +38,18 @@ body{
     line-height: 33px;
 }
 
+.footer-section .row .footer-box{
+    height: 170px;
+    padding-top: 50px;
+}
+
+.footer-section .footer-info ul{
+    display: flex;
+}
+
+.footer-section .footer-info ul li{
+    margin: 0 8px;
+}
 @media(max-width:767px){
     .header-section .navbar img {
         width: 120px;
@@ -40,3 +60,4 @@ body{
         font-size: 16px;
     }
 }
+
